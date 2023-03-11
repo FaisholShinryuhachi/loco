@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+@layer components {
+    .btn-primary {
+        @apply text-white bg-button font-semibold rounded-md text-lg px-5 py-2.5 text-center hover:cursor-pointer;
+    }
+}
+
+.hamburger-line {
+    @apply my-2 block h-[2px] w-[30px] bg-black;
+}
