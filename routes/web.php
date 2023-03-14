@@ -17,6 +17,18 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/navbar', function () {
-    return view('navbar');
+Route::get('/about-us', function () {
+    return view('about-us');
+});
+
+Route::get('/project', function () {
+    return view('project');
+});
+
+Route::get('/contact-us', function () {
+    return view('contact-us');
+});
+
+Route::get('/service', function () {
+    return view('service');
 });

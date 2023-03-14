@@ -25,6 +25,9 @@ module.exports = {
         secondary: '#55A9F7',
         terinary: '#090F4E',
         button: '#55A9F6',
+        desc: '#0C1623',
+        darkprimary: '#0C1623',
+        darkdesc: '#B5B5B5'
       },
     },
   },

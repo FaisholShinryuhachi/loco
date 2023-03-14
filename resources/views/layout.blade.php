@@ -13,14 +13,24 @@
 </head>
 
 <body>
-    <div class="content"
-        style="background: rgb(144,173,245);
-    background: linear-gradient(180deg, rgba(144,173,245,1) 0%, rgba(234,240,255,1) 50%, rgba(144,173,245,1) 100%);">
+    <div class="content" 
+    {{ $dark = true }}
+
+        @if ($dark == true) 
+        { style = "background: #0C1623" }
+        @else
+        { style = "background: rgb(144,173,245);
+                          background: linear-gradient(180deg, rgba(144,173,245,1) 0%, 
+                          rgba(234,240,255,1) 50%,
+                           rgba(144,173,245,1) 100%);
+                           " } @endif>
+
         <section class="menu container">
             @include('navbar')
         </section>
 
         @yield('content')
+        @include('footer')
     </div>
 
     @stack('scriptku')

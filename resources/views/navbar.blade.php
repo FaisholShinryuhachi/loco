@@ -19,13 +19,13 @@
                 <a href="#home" class="mx-2 flex py-2 text-[18px] font-normal text-primary">Home</a>
             </li>
             <li class="group">
-                <a href="#home" class="mx-2 flex py-2 text-[18px] font-normal text-black">About Us</a>
+                <a href="#home" class="mx-2 flex py-2 text-[18px] font-normal text-black dark:text-white">About Us</a>
             </li>
             <li class="group">
-                <a href="#home" class="mx-2 flex py-2 text-[18px] font-normal text-black">Service</a>
+                <a href="#home" class="mx-2 flex py-2 text-[18px] font-normal text-black dark:text-white">Service</a>
             </li>
             <li class="group">
-                <a href="#home" class="mx-2 flex py-2 text-[18px] font-normal text-black">Project</a>
+                <a href="#home" class="mx-2 flex py-2 text-[18px] font-normal text-black dark:text-white">Project</a>
             </li>
             <li class="group">
                 <div class="btn-primary">
